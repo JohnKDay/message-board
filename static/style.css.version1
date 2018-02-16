@@ -1,0 +1,204 @@
+body {
+    background: #ECF0F1;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+}
+
+div.white_space {
+    height: 15px;
+    background-color: white;
+}
+
+a {
+    color: #039FD9;
+}
+
+a:hover {
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+    background: white;
+    border: 1px solid #CACFD2;
+    padding: 2px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    color: #105751;
+}
+
+input[type="submit"] {
+    background: grey;
+    border: 1px solid #073B36;
+    padding: 1px 3px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    color: white;
+}
+
+div.cisco_logo {
+    /*background: white;*/
+    /*border: 1px solid blue;*/
+    width: 1030px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 35px;
+}
+
+div.page {
+    background: white;
+    /*border: 2px solid #D0D3D4;*/
+    width: 1000px;
+    margin: 0px auto;
+    border-radius: 35px;
+    padding: 15px;
+}
+
+div.page h1 {
+    background: linear-gradient(#026D96, #039FD9, #026D96);
+    margin: 0;
+    padding: 10px 20px;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 0 0 6px #00667E;
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+    border-radius: 35px;
+    height: 25px;
+}
+
+div.page div.navigation {
+    background: #039FD9;
+    padding: 4px 20px;
+    border-top: 1pCC4
+    border-bottom: 1px solid #eee;
+    color: #888;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 35px;
+    text-align: left;
+}
+
+div.page div.navigation a {
+    color: white;
+    font-weight: normal;
+}
+
+h2.heading {
+    color: #039FD9;
+    text-shadow: 0 1px 2px #00667E;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.page div.body {
+    padding: 10px;
+}
+
+div.page div.footer {
+    background: #eee;
+    color: #888;
+    padding: 5px 20px;
+    font-size: 12px;
+    border-radius: 35px;
+}
+
+div.page div.followstatus {
+    border: 1px solid #ccc;
+    background: #E3EBEA;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    padding: 3px;
+    font-size: 13px;
+}
+
+div.page ul.messages {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+div.page ul.messages li {
+    margin: 10px 0;
+    padding: 5px;
+    background: #EAECEE;
+    /*background: #F0FAF9;*/
+    /*border: 1px solid #DBF3F1;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;*/
+    min-height: 48px;
+}
+
+div.page ul.messages p {
+    margin: 0;
+}
+
+div.page ul.messages li img {
+    float: left;
+    padding: 0 10px 0 0;
+}
+
+div.page ul.messages li small {
+    font-size: 0.9em;
+    color: #888;
+}
+
+div.page div.twitbox {
+    margin: 10px 0;
+    padding: 5px;
+    background: #F0FAF9;
+    border: 1px solid #039FD9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+div.page div.twitbox h3 {
+    margin: 0;
+    font-size: 1em;
+    color: #039FD9;
+}
+
+div.page div.twitbox p {
+    margin: 0;
+}
+
+div.page div.twitbox input[type="text"] {
+    width: 585px;
+}
+
+div.page div.twitbox input[type="submit"] {
+    width: 70px;
+    margin-left: 5px;
+}
+
+ul.flashes {
+    list-style: none;
+    margin: 10px 10px 0 10px;
+    padding: 0;
+}
+
+ul.flashes li {
+    background: #F0FAF9;
+    border: 1px solid #039FD9;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    padding: 4px;
+    font-size: 13px;
+}
+
+div.error {
+    margin: 10px 0;
+    background: #FAE4E4;
+    border: 1px solid #DD6F6F;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    padding: 4px;
+    font-size: 13px;
+}
